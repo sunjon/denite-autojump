@@ -4,7 +4,7 @@
 [![](http://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![](https://img.shields.io/badge/doc-%3Ah%20denite--autojump.txt-red.svg)](doc/denite-autojump.txt)
 
-A [denite.nvim](https://github.com/Shougo/denite.nvim) source for [autojump](https://github.com/wting/autojump).
+An [autojump](https://github.com/wting/autojump) source for [denite.nvim](https://github.com/Shougo/denite.nvim).
 
 ## Install
 
