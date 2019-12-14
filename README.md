@@ -8,12 +8,12 @@ A [Denite](https://github.com/Shougo/denite.nvim) source for [autojump](https://
 
 ## Install
 
-For [vim-plug](https://github.com/junegunn/vim-plug) for, add:
+For [vim-plug](https://github.com/junegunn/vim-plug), add:
 
     Plug 'Shougo/denite.nvim'
     Plug 'sunjon/denite-autojump'
 
-To your `.vimrc` and run `PlugInstall` and `UpdateRemotePlugins` after
+to your `.vimrc` and run `PlugInstall` and `UpdateRemotePlugins` after
 a restart.
 
 **Note:** [denite.nvim](https://github.com/Shougo/denite.nvim) requires python3+
@@ -27,7 +27,7 @@ Run `:CheckHealth` if you get any problem.
 
 ## Actions
 
-* `autojump` default action
+* `autojump`              - default action
 
 ## Configuration
 
