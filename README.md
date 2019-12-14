@@ -10,7 +10,7 @@ An [autojump](https://github.com/wting/autojump) source for [denite.nvim](https:
 
 For [vim-plug](https://github.com/junegunn/vim-plug), add:
 
-    Plug 'Shougo/denite.nvim'
+    Plug 'shougo/denite.nvim'
     Plug 'sunjon/denite-autojump'
 
 to your `.vimrc` and run `:PlugInstall` and `:UpdateRemotePlugins` after
