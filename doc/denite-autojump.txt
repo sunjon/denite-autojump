@@ -80,7 +80,7 @@ CHANGELOG                                          *denite-autojump-changelog*
 FEEDBACK                                            *denite-autojump-feedback*
 
 |denite-autojump| is open sourced at https://github.com/sunjon/denite-autojump.
-Feel free to open an issue if you encounter problem.
+Feel free to open an issue if you encounter any problems.
 
 
 ==============================================================================
