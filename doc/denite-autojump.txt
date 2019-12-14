@@ -41,9 +41,9 @@ Run the ":UpdateRemotePlugins" command after denite.nvim has been installed.
 ==============================================================================
 USAGE                                                  *denite-autojump-usage*
 
-Keybinds:
+Key Binds:
 
-Create a keybind in your .vimrc. eg: >
+Create a key bind in your .vimrc. eg: >
 
     nnoremap <silent> <Leader>p :Denite autojump<Cr>
 
