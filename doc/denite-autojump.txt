@@ -50,21 +50,21 @@ Create a keybind in your .vimrc. eg: >
 
 Actions:
 
-autojump (default)      - cd to the selected path.
+autojump                - cd to the selected path. (default) 
 
 
 Options:
 
-g:autojump_command      - (string) Path to the autojump binary.
+g:autojump_command      - Path to the autojump binary. (string) 
                           default: /usr/local/bin/autojump
 
-g:autojump_database     - (string) Path to the autojump.txt db.
+g:autojump_database     - Path to the autojump.txt db. (string)  
                           default: ~/Library/autojump/autojump.txt
 
-g:autojump_register     - (bool) Register the cd event with autojump
+g:autojump_register     - Register the cd event with autojump. (bool) 
                           default: 1
 
-g:autojump_echo         - (bool) Echo the cd event to the cmdline.
+g:autojump_echo         - Echo the cd event to the cmdline. (bool) 
                           default: 1
 
 
