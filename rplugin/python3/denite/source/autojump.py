@@ -28,7 +28,7 @@ class Source(Base):
         try:
             f = open(context["data_file"], "r")
         except OSError:
-            err_string = "Coult not open " + context["data_file"]
+            err_string = "Could not open " + context["data_file"]
             error(self.vim, err_string)
             f = []
 
@@ -46,7 +46,7 @@ class Source(Base):
         return candidates
 
     def sorted_num(self, l):
-        """Natural sort list of alpha-numberic strings."""
+        """Natural sort list of alpha-numeric strings."""
         convert = lambda text: int(text) if text.isdigit() else text
         alphanum_key = lambda key: [convert(c) for c in re.split("([0-9]+)", key)]
         return sorted(l, key=alphanum_key)
