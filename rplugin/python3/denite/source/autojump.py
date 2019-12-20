@@ -14,6 +14,8 @@ class Source(Base):
         self.name = "autojump"
         self.kind = "directory"
         self.default_action = "autojump"
+        self.sorters = []
+        self.matchers = ['matcher_substring']
         self.vars["data_file"] = vim.vars.get(
             "autojump_database", ""
         )
